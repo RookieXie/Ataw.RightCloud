@@ -1,0 +1,12 @@
+﻿<script>
+    requirejs.config({
+        paths: {
+            react: '../ts/lib/react/react@(!ViewBag.IsReactDebug ? ".min" : "")',
+            "react-dom": '../ts/lib/react/react-dom@(!ViewBag.IsReactDebug ? ".min" : "")',
+            classnames: '../ts/lib/classname/classnames',
+            lodash:'../ts/lib/lodash/lodash.min',
+            antd: '../ts/lib/antd/antd.min',
+            "rc-table": '../ts/lib/rc-table/rc-table'
+        }
+    });
+</script>

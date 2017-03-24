@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC469B17-298D-43E2-9199-4C9879BBB668}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ataw.RightCloud.DA</RootNamespace>
+    <AssemblyName>Ataw.RightCloud.DA</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ataw.Framework.Core">
+      <HintPath>..\..\..\_output\library\Ataw.Framework.Web\Ataw.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\_output\library\Ataw.Framework.Web\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comment\DAAtaw_Comment.cs" />
+    <Compile Include="Comment\DAAtaw_Comment_Resouce.cs" />
+    <Compile Include="DAAtaw_Gruop.cs" />
+    <Compile Include="DAAtaw_Menus.cs" />
+    <Compile Include="DAAtaw_Menus_Button.cs" />
+    <Compile Include="DAAtaw_Menus_Group.cs" />
+    <Compile Include="DAAtaw_PageLock.cs" />
+    <Compile Include="DAAtaw_Rights.cs" />
+    <Compile Include="DAAtaw_Roles.cs" />
+    <Compile Include="DAAtaw_Role_Rights.cs" />
+    <Compile Include="DAAtaw_Users.cs" />
+    <Compile Include="DAAtaw_UsersDetail.cs" />
+    <Compile Include="DAAtaw_Users_State.cs" />
+    <Compile Include="DAAtaw_User_Roles.cs" />
+    <Compile Include="PageMark\DAPM_PageMark.cs" />
+    <Compile Include="RC\Collection\DAXP_Folder_Tree.cs" />
+    <Compile Include="RC\Collection\DAXP_Website.cs" />
+    <Compile Include="RC\DARC_Department.cs" />
+    <Compile Include="RC\DARC_Group_Product.cs" />
+    <Compile Include="RC\DARC_Group_tree.cs" />
+    <Compile Include="RC\DARC_Menu_Group.cs" />
+    <Compile Include="RC\DARC_Menu_Role.cs" />
+    <Compile Include="RC\DARC_Menu_tree.cs" />
+    <Compile Include="RC\DARC_Product.cs" />
+    <Compile Include="RC\DARC_Product_Menu.cs" />
+    <Compile Include="RC\DARC_Product_Role.cs" />
+    <Compile Include="RC\DARC_Role.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RC\DAUserRole.cs" />
+    <Compile Include="RightCloudRespository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ataw.RightCloud.Data\Ataw.RightCloud.Data.csproj">
+      <Project>{c0aec336-3715-4215-86e7-d1f60fd2d468}</Project>
+      <Name>Ataw.RightCloud.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ataw.RightCloud.DB\Ataw.RightCloud.DB.csproj">
+      <Project>{822da043-b624-42d6-8aa2-05549f6d0962}</Project>
+      <Name>Ataw.RightCloud.DB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

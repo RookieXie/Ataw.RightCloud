@@ -1,0 +1,56 @@
+﻿{
+    "OrgData": [
+        { "FID": "001", "OrgName": "组织1", "OrgSign": "" },
+        { "FID": "002", "OrgName": "组织2", "OrgSign": "" },
+        { "FID": "003", "OrgName": "组织3", "OrgSign": "" },
+        { "FID": "004", "OrgName": "组织4", "OrgSign": "" },
+        { "FID": "005", "OrgName": "组织5", "OrgSign": "" },
+        { "FID": "006", "OrgName": "组织6", "OrgSign": "" },
+        { "FID": "007", "OrgName": "组织7", "OrgSign": "" },
+        { "FID": "008", "OrgName": "组织8", "OrgSign": "" }
+    ],
+
+    "MenuData": [
+        { "CODE_VALUE": "001", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单1", "IsHidden": false },
+
+        {
+            "CODE_VALUE": "002",
+            "isParent": true,
+            "isLeaft": false,
+            "CODE_TEXT": "菜单2",
+            "IsHidden": false,
+            "Children": [
+                { "CODE_VALUE": "0021", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单21", "IsHidden": false },
+                { "CODE_VALUE": "0022", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单22", "IsHidden": false },
+                { "CODE_VALUE": "0023", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单23", "IsHidden": false },
+
+                {
+                    "CODE_VALUE": "0024",
+                    "isParent": true,
+                    "isLeaft": false,
+                    "CODE_TEXT": "菜单24",
+                    "IsHidden": false,
+                    "Children": [
+                        { "CODE_VALUE": "00241", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单241", "IsHidden": false },
+                        { "CODE_VALUE": "00242", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单242", "IsHidden": false },
+                        { "CODE_VALUE": "00243", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单243", "IsHidden": false }
+                    ]
+                }
+            ]
+        },
+
+
+        { "CODE_VALUE": "003", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单3", "IsHidden": false },
+        { "CODE_VALUE": "004", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单4", "IsHidden": false },
+        { "CODE_VALUE": "005", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单5", "IsHidden": false },
+        { "CODE_VALUE": "006", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单6", "IsHidden": false },
+        { "CODE_VALUE": "007", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单7", "IsHidden": false },
+        { "CODE_VALUE": "008", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单8", "IsHidden": false },
+        { "CODE_VALUE": "009", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单9", "IsHidden": false },
+        { "CODE_VALUE": "0010", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜10", "IsHidden": false },
+        { "CODE_VALUE": "0011", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单11", "IsHidden": false },
+        { "CODE_VALUE": "0012", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单12", "IsHidden": false },
+        { "CODE_VALUE": "0013", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单13", "IsHidden": false },
+        { "CODE_VALUE": "0014", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单14", "IsHidden": false }
+    ]
+}

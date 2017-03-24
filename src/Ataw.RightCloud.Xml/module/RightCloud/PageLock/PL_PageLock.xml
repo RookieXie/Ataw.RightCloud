@@ -1,0 +1,28 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>页面锁定</Title>
+  <Forms>
+    <Form Order="1" Title="页面锁定" Name="PL_PageLock"  TableName="PL_PageLock" FormType="Grid" HasSearch="true" File="form/RightCloud/PageLock/PL_PageLock.xml" ShowKind="Tile" >
+      <SupportPage>List|Detail|Insert|Update</SupportPage>
+      <ButtonRightPlug>PL_PageLockButtonRight</ButtonRightPlug>
+      <!--<DataPlug>PMPageMarkDataSource</DataPlug> -->
+      <!--<AfterInitFunName>RCGroupAfterInitFun</AfterInitFunName>-->
+
+      <Pager>
+        <PageSize>10</PageSize>
+      </Pager>
+    </Form>
+  </Forms>
+  <Scripts>
+    <Script>
+      <Path>/Areas/RightCloud/Scripts/RC/Comment/Comment.js</Path>
+    </Script>
+  </Scripts>
+  <Buttons>
+    <Button Name="OpenCloseLock" Text="锁定/解锁" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>OpenCloseLock</Function>
+      </Client>
+    </Button>
+  </Buttons>
+</ModuleConfig>

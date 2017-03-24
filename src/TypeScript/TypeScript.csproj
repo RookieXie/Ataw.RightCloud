@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{D825D4FC-8547-4E58-8974-0D026C00B947}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TypeScript</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14822</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14822/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\0Dom.ts">
+      <Link>src\01core\0Dom.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\AkDispatcher.ts">
+      <Link>src\01core\AkDispatcher.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\Event.ts">
+      <Link>src\01core\Event.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\Hook.tsx">
+      <Link>src\01core\Hook.tsx</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\Ioc.ts">
+      <Link>src\01core\Ioc.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\post.ts">
+      <Link>src\01core\post.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\Screen.ts">
+      <Link>src\01core\Screen.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\Url.ts">
+      <Link>src\01core\Url.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\01core\Util.ts">
+      <Link>src\01core\Util.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\04page\BaseWebPage.ts">
+      <Link>src\04page\BaseWebPage.ts</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\04page\IframePage.tsx">
+      <Link>src\04page\IframePage.tsx</Link>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="..\..\..\..\Ataw.Platform\src\modules\TypeScript\src\04page\Page.ts">
+      <Link>src\04page\Page.ts</Link>
+    </TypeScriptCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Page.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptModuleKind>amd</TypeScriptModuleKind>
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptJsxEmit>react</TypeScriptJsxEmit>
+    <OutputPath>..\..\..\_output\Web\Ataw.WebSite\RightCloud\</OutputPath>
+    <TypeScriptOutDir>D:\AtawSources\Products\_output\Web\Ataw.WebSite\ts\RightCloud\</TypeScriptOutDir>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)bin\*.*" "$(TargetDir)..\..\..\..\_output\Web\Ataw.WebSite\ts\RightCloud\" /S  /C /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

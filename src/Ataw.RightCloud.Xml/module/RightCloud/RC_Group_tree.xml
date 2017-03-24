@@ -1,0 +1,32 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>组织机构</Title>
+  <Forms>
+    <Form Order="1" Title="组织机构" Name="RC_Group_tree"  TableName="RC_Group_tree" FormType="Grid" HasSearch="true" File="form/RightCloud/RC_Group_tree.xml" ShowKind="Tile" >
+      <DataPlug>RCGroupTreeDataSource</DataPlug>
+      <ButtonRightPlug>RC_Group_treeButtonRight</ButtonRightPlug>
+      <AfterInitFunName>RCGroupAfterInitFun</AfterInitFunName>
+      <!--<DataPlug>RCGroupDateSource</DataPlug>-->
+      <Pager>
+        <PageSize>10</PageSize>
+      </Pager>
+    </Form>
+  </Forms>
+  <Scripts>
+    <Script>
+      <Path>/Areas/RightCloud/Scripts/RC/RC_Group_Tree.js</Path>
+    </Script>
+  </Scripts>
+  <Buttons>
+    <Button Name="RCGrantGroupRights"  Text="分配权限" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>GrantGroupRightsFunc</Function>
+      </Client>
+    </Button>
+    <Button Name="ViewGroupRights" Text="查看权限" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>ViewGroupRightsfunc</Function>
+      </Client>
+    </Button>
+  </Buttons>
+</ModuleConfig>

@@ -1,0 +1,29 @@
+﻿@using Ataw.Framework.Web;
+@using Ataw.Framework.Core;
+
+@{
+  
+    string SkinName = "SkinName".AppKv<string>("");
+    string _SkinName = SkinName.IsAkEmpty() ? "" : SkinName + "_";
+    string IconLinkHref = "LinkHref".AppKv<string>("");
+}
+<link href="/ts/lib/antd/antd.min.css" rel="stylesheet" />
+@*<link href="/ts/lib/rc-table/rc-table.css" rel="stylesheet" />*@
+<script src="/ts/lib/foundation/js/vendor/modernizr.js"></script>
+<link href="/ts/lib/font-awesome/font-awesome.css" rel="stylesheet" />
+<link href="/ts/lib/akCss/animate.css" rel="stylesheet" />
+<link href="/ts/lib/platform/css/@{@_SkinName}b4-reboot.css" rel="stylesheet" id="skinBt"/>
+<link href="/ts/lib/platform/css/@{@_SkinName}atawPlatform.css" rel="stylesheet" id="skinPlatform"/>
+@if (!SkinName.IsAkEmpty())
+{
+    <link href="/ts/lib/platform/css/@{@SkinName}Style.css" rel="stylesheet" />
+}
+@if (!IconLinkHref.IsAkEmpty())
+{
+    <link href="@{@IconLinkHref}" rel="stylesheet"/>
+}
+<link href="/ts/lib/mes-iconfont/icon-style.css" rel="stylesheet" />
+<link href="/ts/lib/akCss/icons/xsdIcon/style.css" rel="stylesheet">
+<link href="/AtawStatic/lib/01Base/09Css/ataw_bootstrap.css" rel="stylesheet" />
+<link href="/AtawStatic/lib/01Base/08Msgbox/msgbox.css" rel="stylesheet" type="text/css" />
+<script src="/AtawStatic/lib/01Base/14template/arttemplate.js" type="text/javascript"></script>

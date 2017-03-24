@@ -1,0 +1,27 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>文件夹信息</Title>
+  <Forms>
+    <Form Order="1" Title="文件夹信息" Name="XP_Folder_Tree"  FormType="Grid" HasSearch="true" File="form/RightCloud/Collection/XP_Folder_Tree.xml" ShowKind="Tile" >
+      <ButtonRightPlug>RCCommentListButtonRight</ButtonRightPlug>
+      <DataPlug>XPFolderTreeDataSource</DataPlug>
+      <Pager>
+        <PageSize>10</PageSize>
+      </Pager>
+    </Form>
+    <Form Order="1" Title="网站表" Name="XP_WebSite"  FormType="Grid" HasSearch="true" File="form/RightCloud/Collection/XP_WebSite.xml" ShowKind="Tile" HasBatchInsert="true" >
+      <Pager>
+        <PageSize>1000</PageSize>
+      </Pager>
+    </Form>
+  </Forms>
+  <Relations>
+    <Relation>
+      <MasterForm>XP_Folder_Tree</MasterForm>
+      <MasterField>FID</MasterField>
+      <DetailForm>XP_WebSite</DetailForm>
+      <DetailField>Ws_id</DetailField>
+    </Relation>
+  </Relations>
+
+</ModuleConfig>

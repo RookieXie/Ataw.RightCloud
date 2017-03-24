@@ -1,0 +1,28 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>已删除评论</Title>
+  <Forms>
+    <Form Order="0" Title="评论表信息" Name="Sns_Comment"  FormType="Grid" HasSearch="true" File="form/RightCloud/Sns_Comment.xml" ShowKind="Tile" TableName="Sns_Comment" >
+      <ButtonRightPlug>RCRBCommentListButtonRight</ButtonRightPlug>
+      <DataPlug>RCRBCommentDataSource</DataPlug>
+    </Form>
+  </Forms>
+  <Scripts>
+    <Script>
+      <Path>/Areas/RightCloud/Scripts/RC/Comment/Comment.js</Path>
+    </Script>
+  </Scripts>
+
+  <Buttons>
+    <Button Name="RemoveDelete" Text="还原删除数据" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>RemoveDelete</Function>
+      </Client>
+    </Button>
+    <Button Name="ReallyDelete" Text="彻底删除" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>ReallyDelete</Function>
+      </Client>
+    </Button>
+  </Buttons>
+</ModuleConfig>

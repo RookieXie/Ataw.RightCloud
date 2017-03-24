@@ -1,0 +1,289 @@
+﻿@{
+    ViewBag.Title = "WxBing";
+}
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>@ViewBag.Title</title>
+
+    @*<link href="/ts/lib/akCss/reset.css" rel="stylesheet">
+        <link href="/ts/lib/foundation/css/foundation.min.css" rel="stylesheet">
+        <link href="/ts/lib/akCss/rightCloud.css" rel="stylesheet">*@
+    @*<link href="/ts/lib/bootstrap/v4/bootstrap.min.css" rel="stylesheet">*@
+    <link href="/ts/lib/platform/css/b4-reboot.css" rel="stylesheet" id="skinBt" />
+    <link href="/ts/lib/platform/css/atawPlatform.css" rel="stylesheet" id="skinPlatform" />
+    <link href="/ts/lib/font-awesome/font-awesome.css" rel="stylesheet" />
+    <style>
+        input, button, select, textarea {
+            margin-bottom: 0 !important;
+        }
+
+        .Hm-login-form {
+            height: 20rem;
+            height: 12.5rem\9;
+            _height: 12.5rem;
+        }
+
+        .pd-l0 {
+            padding-left: 0 !important;
+        }
+
+        .pd-r0 {
+            padding-right: 0 !important;
+        }
+    </style>
+</head>
+<body class="Hg-login">
+    <div class="container">
+        <div class="col-lg-5 col-md-6 col-sm-8">
+            <form class="Hm-login-form">
+                <div class="tab">
+                <ul>
+                    <li>绑定用户</li>
+                    <li>注册用户并绑定</li>
+                </ul>
+              </div>
+                <div class="col-lg-12 hide">
+                    <div class="col-lg-12">
+                        <input type="text" id="inputUserName" class="form-control" />
+                        <label class="form-label" for="inputUserName">用户名</label>
+                        <label id="userNameLabel" class="Hs-red"></label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="password" id="inputPass" class="form-control" />
+                        <label class="form-label" for="inputPass">密码</label>
+                        <label id="passLabel" class="Hs-red"></label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="text" id="inputWxUsername" value=@ViewBag.userName class="form-control value" readonly />
+                        <label class="form-label" for="inputWxUsername">微信账号</label>
+                        <label></label>
+                    </div>
+                    <div class="col-lg-12 clearfix ">
+                        <input id="OrgCode" type="hidden" value="@ViewBag.OrgCode" />
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pd-l0"><a class=" Hg-width btn btn-danger" id="btWxBing" href="javascript:void()">绑定</a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pd-r0"><a class=" Hg-width btn btn-danger hide" id="btWxRelieve" href="javascript:void()">解绑并重新绑定</a></div>
+                        <label id="submitLabel" class="Hs-red"></label>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 ">
+                    <div class="col-lg-12">
+                        <input type="text" id="registerUserName" class="form-control" />
+                        <label class="form-label" for="registerUserName">用户名</label>
+                        <label id="registerUserLabel" class="Hs-red"></label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="password" id="registerPass" class="form-control" />
+                        <label class="form-label" for="registerPass">密码</label>
+                        <label id="registerPassLabel" class="Hs-red"></label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="password" id="registerPassAgain" class="form-control" />
+                        <label class="form-label" for="registerPassAgain">重复密码</label>
+                        <label id="registerPassLabelAgian" class="Hs-red"></label>
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="text" id="registerWxUsername" value=@ViewBag.userName class="form-control value" readonly />
+                        <label class="form-label" for="registerWxUsername">微信账号</label>
+                        <label></label>
+                    </div>
+                    <div class="col-lg-12 clearfix ">
+                        <input id="registerOrgCode" type="hidden" value="@ViewBag.OrgCode" />
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pd-l0"><a class=" Hg-width btn btn-danger" id="btRegisterWxBing" href="javascript:void()">注册并绑定</a></div>
+                        <label id="registerSubmitLabel" class="Hs-red"></label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/ts/lib/jquery/jquery.js"></script>
+    <script src="/ts/lib/jquery/jquery-migrate-1.2.1.js"></script>
+    <script src="/ts/lib/jquery/json.js"></script>
+    <script>
+        $(function () {
+            //绑定
+            var isSubmit = false;
+            var isRelieve = false;
+            var _UserName = $("#inputUserName");
+            var _inputPass = $("#inputPass");
+            _UserName.blur(function () {
+                var str = $(this).val();
+                str = $.trim(str);
+                if (str != "") {
+                    _UserName.addClass("value");
+                    $("#inputUserName").text("");
+                }
+                else {
+                    _UserName.removeClass("value");
+                    $("#userNameLabel").text("用户名不能为空");
+                }
+            })
+
+            _inputPass.blur(function () {
+                var str = $(this).val();
+                str = $.trim(str);
+                if (str != "") {
+                    _inputPass.addClass("value");
+                    $("#passLabel").text("");
+                }
+                else {
+                    _inputPass.removeClass("value");
+                    $("#passLabel").text("");
+                }
+                var userName = $("#inputUserName").val();
+                userName = $.trim(userName);
+                //var str = $("#inputPass").val();
+                $.post('/QYWS/QY/CheckWxBing', { userName: userName, password: str, OrgCode: "@ViewBag.orgId" }, function (res) {
+                    var data = JSON.parse(res);
+                    if (data.Obj.type == "ok") {
+                        $("#userNameLabel").text("");
+                        $("#btWxRelieve").attr("class", "Hg-width btn btn-danger hide");
+                        $("#submitLabel").text("");
+                        isSubmit = true;
+                    } else if (data.Obj.type == "bing") {
+                        $("#userNameLabel").text(data.Obj.msg);
+                        $("#btWxRelieve").attr("class", "Hg-width btn btn-danger");
+                        $("#submitLabel").text("");
+                        isRelieve = true;
+                        isSubmit = false;
+                    } else {
+                        isRelieve = false;
+                        isSubmit = false;
+                        $("#submitLabel").text(data.Obj.msg);
+                        $("#userNameLabel").text("");
+                        $("#btWxRelieve").attr("class", "Hg-width btn btn-danger hide");
+                    }
+                });
+            })
+            $("#btWxRelieve").off("click").on("click", function () {
+                if ($("#inputUsername").val() == "" || $("#inputPassAgain").val() == "" || $("#inputPass").val() == "" || $("#inputWxUsername").val() == "") {
+                    alert("请输入完整信息！");
+                    isRelieve = false;
+                } else {
+                    if (isRelieve) {
+                        $.post('/QYWS/QY/WxRelieveSubmit', { userName: $("#inputUserName").val(), Wx_userId: "@ViewBag.userName", OrgCode: "@ViewBag.orgId", password: $("#inputPass").val() }, function (data) {
+                            data = JSON.parse(data);
+                            if (data.Obj == "ok") {
+                                window.location.href = "/ts/html/x?";
+                            } else {
+                                $("#submitLabel").text(data.Obj);
+                            }
+                        })
+                        $(this).html("正在重新绑定，请稍后..." + "<i class='fa fa-refresh fa-spin'></i>").attr("disabled", "true");
+                    }
+                }
+
+                return false;
+            })
+            $("#btWxBing").off("click").on("click", function () {
+                if ($("#inputUsername").val() == "" || $("#inputPassAgain").val() == "" || $("#inputPass").val() == "" || $("#inputWxUsername").val() == "") {
+                    alert("请输入完整信息！");
+                    isSubmit = false;
+                } else {
+                    if (isSubmit) {
+                        $.post('/QYWS/QY/WxBingSubmit', { userName: $("#inputUserName").val(), Wx_userId: "@ViewBag.userName", OrgCode: "@ViewBag.orgId", password: $("#inputPass").val() }, function (data) {
+                            data = JSON.parse(data);
+                            if (data.Obj == "ok") {
+                                window.location.href = "/ts/html/x?";
+                            } else {
+                                $("#submitLabel").text(data.Obj);
+                            }
+                        })
+                        $(this).html("正在绑定，请稍后..." + "<i class='fa fa-refresh fa-spin'></i>").attr("disabled", "true");
+                    }
+                }
+
+                return false;
+            });
+            //注册并绑定
+            var isRegister = false;
+            var _registerName = $("#registerUserName");
+            var _registerPass = $("#registerPass");
+            var _registerPassAgain = $("#registerPassAgain");
+            _registerName.blur(function () {
+                var str = $(this).val();
+                str = $.trim(str);
+                if (str != "") {
+                    _registerName.addClass("value");
+                    $("#registerUserLabel").text("");
+                }
+                else {
+                    _registerName.removeClass("value");
+                    $("#registerUserLabel").text("用户名不能为空");
+                }
+            })
+            _registerPass.blur(function () {
+                var str = $(this).val();
+                str = $.trim(str);
+                if (str != "") {
+                    _registerPass.addClass("value");
+                    $("#registerPassLabel").text("");
+                }
+                else {
+                    _registerPass.removeClass("value");
+                    $("#registerPassLabel").text("请先输入密码");
+                }
+            })
+            _registerPassAgain.blur(function () {
+                var str = $(this).val();
+                str = $.trim(str);
+                if (str != "") {
+                    _registerPassAgain.addClass("value");
+                }
+                else {
+                    _registerPassAgain.removeClass("value");
+                }
+                var pass = $("#registerPass").val();
+                pass = $.trim(pass);
+                if (str != pass) {
+                    $("#registerPassLabelAgian").text("两次密码不一致");
+                } else {
+                    $("#registerPassLabelAgian").text("");
+                }
+                var userName = $("#registerUserName").val();
+                userName = $.trim(userName);
+                //var str = $("#inputPass").val();
+                $.post('/QYWS/QY/CheckWxRegisterBing', { userName: userName, password: str, OrgCode: "@ViewBag.orgId" }, function (res) {
+                    var data = JSON.parse(res);
+                    if (data.Obj.type == "ok") {
+                        $("#registerSubmitLabel").text("");
+                        isRegister = true;
+                    } else {
+                        isRegister = false;
+                        $("#registerSubmitLabel").text(data.Obj.msg);
+                    }
+                });
+            })
+
+            $("#btRegisterWxBing").off("click").on("click", function () {
+                if ($("#registerUserName").val() == "" || $("#registerPass").val() == "" || $("#registerPassAgain").val() == "" || $("#registerWxUsername").val() == "") {
+                    alert("请输入完整信息！");
+                    isRegister = false;
+                } else {
+                    if (isRegister) {
+                        $.post('/QYWS/QY/WxRegisterBingSubmit', { userName: $("#registerUserName").val(), Wx_userId: "@ViewBag.userName", OrgCode: "@ViewBag.orgId", password: $("#registerPassAgain").val() }, function (data) {
+                            data = JSON.parse(data);
+                            if (data.Obj) {
+                                window.location.href = "/ts/html/x?";
+                            } else {
+                                $("#submitLabel").text("注册、绑定失败");
+                            }
+                        })
+                        $(this).html("正在注册、绑定，请稍后..." + "<i class='fa fa-refresh fa-spin'></i>").attr("disabled", "true");
+                    }
+                }
+
+                return false;
+            });
+
+
+
+        });
+    </script>
+</body>
+</html>

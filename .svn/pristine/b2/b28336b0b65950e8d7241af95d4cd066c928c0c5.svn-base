@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\project\AtawCode\src\framework\Web\xml\XmlSchema\ModuleConfig.xsd">
+  <Forms>
+
+
+    <SeaForm Title ="操作面板"  Name="发布板1" ShowKind="Tab" ShowType="2" > 
+      <SeaInformation>
+        <Name>Feed</Name> 
+        <DisplayName>发布版</DisplayName>
+      </SeaInformation>
+    </SeaForm>
+    <SeaForm Title ="站点查看"  Name="发布板2" ShowKind="Tab" ShowType="2" > 
+      <SeaInformation>
+        <Name>IIsSitePage</Name> 
+        <DisplayName>发布版</DisplayName>
+      </SeaInformation>
+    </SeaForm>
+    <SeaForm Title ="在线用户监控"  Name="发布板3" ShowKind="Tab" ShowType="0" >
+      <SeaInformation>
+        <Name>WebSocketPage</Name>
+        <DisplayName>发布版</DisplayName>
+      </SeaInformation>
+    </SeaForm>
+  </Forms>
+</ModuleConfig>

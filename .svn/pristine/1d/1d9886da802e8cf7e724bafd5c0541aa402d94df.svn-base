@@ -1,0 +1,43 @@
+﻿
+@using Ataw.Framework.Web;
+@using Ataw.Framework.Core;
+@{
+    string _appList = "AppList".AppKv<string>("\"right/rightApp\"");
+    string _notifyClient = "NotifyClient".AppKv<string>("NodeClient");
+    string _appName = AtawAppContext.Current.ApplicationXml.AppName;
+    string _isDev = ViewBag.IsDev?"true":"false";
+    string _isSkin = ViewBag.IsSkin ? "true" : "false";
+    string IsUpdateJs = "IsUpdateJs".AppKv<string>("false"); 
+}
+<script>
+    window.SysAtawObj = {};
+    window.SysAtawObj.NickName = "@ViewBag.NickName";
+    window.SysAtawObj.IsT = "@ViewBag.IsT";
+    $.AKjs = $.AKjs? $.AKjs : {};
+    $.AKjs.LoginId = "@AtawAppContext.Current.UserId";
+    $.AKjs["NodeUrl"] = "@AtawAppContext.Current.ApplicationXml.AppSettings["NodeJsUrl"].Value";
+    $.AKjs.NickName = decodeURIComponent("@Server.UrlEncode(AtawAppContext.Current.NickName)");
+    $.AKjs.UserName = decodeURIComponent("@Server.UrlEncode(AtawAppContext.Current.UserName)");
+    $.AKjs.Logo = "@WebUtil.GetLoginUserLogoHttpPath(AtawAppContext.Current.UserId)" +"?d="+@DateTime.Now.Ticks.ToString();
+    //window["Hull_HasNoLeftMenu"] = false ;
+    window.Hull_Config = {
+        HasNoLeftMenu:false ,
+        HomeUrl:"@ViewBag.HomeUrl",
+        LogoUrl:"../lib/akCss/images/logo.png",
+        HasSDKMenu:@_isDev,
+        AppList:[@Html.Raw(_appList)],
+        HasTime:true,
+        HasRefresh:true,
+        HasHelp:true,
+        HasSet:true,
+        HasTools:true,
+        NotifyClient:"@_notifyClient",
+        //  HasMark:true,
+        IsV1:true,
+        AppName:"@_appName",
+        HasChangSkin:@_isSkin,
+        IsUpdateJs:@IsUpdateJs
+    };
+    // $(document).foundation().foundation('joyride', 'start');
+
+</script>

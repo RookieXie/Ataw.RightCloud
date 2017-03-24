@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Multiple</Mode>
+  <Title>按钮</Title>
+  <Forms>
+    <Form Order="0" Title="菜单按钮" Name="RC_Menu_Buttons" HasBatchInsert="true" FormType="Grid"  HasSearch="true" File="form\RightCloud\RC_Menu_Buttons.xml" ShowKind="Tile" >
+      <DataPlug>JsonFormDataTableSource</DataPlug>
+    </Form>
+  </Forms>
+  <Interceptor></Interceptor>
+</ModuleConfig>

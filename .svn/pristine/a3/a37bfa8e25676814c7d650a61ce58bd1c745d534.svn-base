@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<SiteFunConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Fun  Name="Header" Title="页面的头部" >
+    <Fun Name="OA" Title="OA相关" >
+      <Fun Name="SaasMode" Title="平台oa模式" >
+        <RegName>App</RegName>
+        <Fun Name="OldOAMode" Title="传统oa模式" >
+          <RegName>App</RegName>
+        </Fun>
+      </Fun>
+    
+      <Fun Name="Header.OA.CenterInfo" Title="是否有消息中心" >
+        <RegName>App</RegName>
+      </Fun>
+      <Fun Name="Header.OA.Colleague" Title="是否有同事" >
+        <RegName>App</RegName>
+      </Fun>
+      <Fun Name="Header.OA.DocumentCenter" Title="是否有文档" >
+        <RegName>App</RegName>
+      </Fun>
+      <Fun Name="Header.OA.Calendar" Title="是否有日历" >
+        <RegName>App</RegName>
+      </Fun>
+      <Fun Name="Header.OA.Workflow" Title="是否有工作流" >
+        <RegName>App</RegName>
+      </Fun>
+      <Fun Name="Header.OA.AppCenter" Title="是否有应用中心" >
+        <RegName>App</RegName>
+      </Fun>
+      <Fun Name="UserWeeklyStack" Title="是否推送周报信息" >
+        <RegName>App</RegName>
+      </Fun>
+    </Fun>
+  </Fun>
+  <Fun />
+</SiteFunConfig>

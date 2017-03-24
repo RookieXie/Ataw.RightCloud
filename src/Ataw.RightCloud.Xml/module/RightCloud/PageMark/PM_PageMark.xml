@@ -1,0 +1,28 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>页面快捷</Title>
+  <Forms>
+    <Form Order="1" Title="页面快捷" Name="PM_PageMark"  TableName="PM_PageMark" FormType="Grid" HasSearch="true" File="form/RightCloud/PageMark/PM_PageMark.xml" ShowKind="Tile" >
+      <SupportPage>List|Detail|Insert|Update</SupportPage>
+      <ButtonRightPlug>PM_PageMarkButtonRight</ButtonRightPlug>
+      <DataPlug>RCEmptyDataSource</DataPlug>
+      <!--<AfterInitFunName>RCGroupAfterInitFun</AfterInitFunName>-->
+  
+      <Pager>
+        <PageSize>10</PageSize>
+      </Pager>
+    </Form>
+  </Forms>
+  <Scripts>
+    <Script>
+      <Path>/Areas/RightCloud/Scripts/RC/Collection/XP_Folder_Tree.js</Path>
+    </Script>
+  </Scripts>
+  <Buttons>
+    <Button Name="GoToUrl" Text="跳转页面" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>GoToUrl</Function>
+      </Client>
+    </Button>
+  </Buttons>
+</ModuleConfig>

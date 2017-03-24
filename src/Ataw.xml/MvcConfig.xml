@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AtawMvcConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XmlSchema/MvcConfig.xsd">
+    <AppName>MvcConfig</AppName>
+    <DataRoutes>
+        <DataRoute Name="MRP">
+            <ControlName>Home</ControlName>
+            <ActionName>Login</ActionName>
+            <AreaName></AreaName>
+          <Param>ataw</Param>
+            <NameSpace>Ataw.MRP.Web.Controllers</NameSpace>
+        </DataRoute>
+        <DataRoute Name="UISDK">
+            <ControlName>Home</ControlName>
+            <ActionName>Index</ActionName> 
+            <AreaName></AreaName>
+            <NameSpace>UISdk.Controllers</NameSpace>
+        </DataRoute>
+      <DataRoute Name="AMALL">
+        <ControlName>Home</ControlName>
+        <ActionName>AmallIndex</ActionName>
+        <AreaName>AmallPortal</AreaName>
+        <NameSpace>Ataw.AMALL.Portal.Web.Controllers</NameSpace>
+      </DataRoute>
+      <DataRoute Name="Right">
+        <ControlName>Home</ControlName>  
+        <ActionName>Login</ActionName>
+        <AreaName>Right</AreaName>
+        <Param>1</Param>
+        <NameSpace>Ataw.Right.Web.Controllers</NameSpace>
+      </DataRoute>
+      <DataRoute Name="RightCloud">
+        <ControlName>Auth</ControlName>
+        <ActionName>Index</ActionName>
+        <AreaName>RightCloud</AreaName>
+        <Param>1</Param>
+        <NameSpace>Ataw.RightCloud.Web</NameSpace>
+      </DataRoute>
+    </DataRoutes>
+    <Routes>
+        <RegName>RightCloud</RegName> 
+    </Routes>
+</AtawMvcConfig>

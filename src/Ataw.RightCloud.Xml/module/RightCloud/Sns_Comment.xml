@@ -1,0 +1,28 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>评论表信息</Title>
+  <Forms>
+    <Form Order="0" Title="评论表信息" Name="Sns_Comment"  FormType="Grid" HasSearch="true" File="form/RightCloud/Sns_Comment.xml" ShowKind="Tile" TableName="Sns_Comment" >
+      <ButtonRightPlug>RCCommentListButtonRight</ButtonRightPlug>
+      <DataPlug>SnsCommentDataSource</DataPlug>
+    </Form>
+  </Forms>
+  <Scripts>
+    <Script>
+      <Path>/Areas/RightCloud/Scripts/RC/Comment/Comment.js</Path>
+    </Script>
+  </Scripts>
+
+  <Buttons>
+    <Button Name="ShowAllComment" Text="查看所有评论" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>ShowAllComment</Function>
+      </Client>
+    </Button>
+    <Button Name="OpenClose" Text="审核/未审核" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>OpenClose</Function>
+      </Client>
+    </Button>
+  </Buttons>
+</ModuleConfig>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<DbCodeTableXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../XmlSchema/DbCodeTable.xsd">
+  <DbCodeTables>
+    <DbCodeTable Author="zhengyk" CreateDate="2012-10-07" Description="用户编号获取昵称">
+      <RegName>USER_All_NICKNAME_CORE</RegName>
+      <TableName>Ataw_Users</TableName>
+      <TextField>'&lt;img class="atawUserID img-polaroid acs-thumbImage50" src="http://192.168.66.11:99/Core/User/logo/'+UserID+'_60-60.jpg"/&gt;&lt;span  &gt;'+NickName+'&lt;/span&gt;'</TextField>
+      <ValueField>UserID</ValueField>
+      <HasCache>true</HasCache>
+      <DataBase>code</DataBase>
+      <Sign>AllUser</Sign>
+    </DbCodeTable>
+    <DbCodeTable Author="zhengyk" CreateDate="2012-10-07" Description="用户编号获取昵称">
+      <RegName>USER_All_NICKNAME_CORE_27_27</RegName>
+      <TableName>Ataw_Users</TableName>
+      <!--<TextField>'&lt;img class="atawUserID img-polaroid" src="http://192.168.66.11:99/Core/User/logo/'+UserID+'_60-60.jpg"/&gt;&lt;span  &gt;'+NickName+'&lt;/span&gt;'</TextField>-->
+      <TextField>'&lt;img class="aks-userlogo" src="http://192.168.66.11:99/Core/User/logo/'+UserID+'_60-60.jpg"/&gt;&lt;span  &gt;'+NickName+'&lt;/span&gt;'</TextField>
+      <ValueField>UserID</ValueField>
+      <!--<HasCache>true</HasCache>-->
+    </DbCodeTable>
+    <DbCodeTable Author="sj" CreateDate="2013-08-26" Description="用户编号获取头像">
+      <RegName>USER_All_AVATAR_CORE</RegName>
+      <TableName>Ataw_Users</TableName>
+      <TextField>'&lt;img class="atawUserID img-polaroid acs-thumbImage50" src="http://192.168.66.11:99/Core/User/logo/'+UserID+'_60-60.jpg"/&gt;'</TextField>
+      <ValueField>UserID</ValueField>
+      <!--<HasCache>true</HasCache>-->
+    </DbCodeTable>
+    <DbCodeTable Author="zhengyk" CreateDate="2012-11-06" Description="用户编号获取用户名">
+      <RegName>USER_All_USERNAME_CORE</RegName>
+      <TableName>Ataw_Users</TableName>
+      <TextField>UserName</TextField>
+      <ValueField>UserID</ValueField>
+      <HasCache>true</HasCache>
+    </DbCodeTable>
+    <DbCodeTable Author="zhengyk" CreateDate="2012-10-07" Description="用户编号获取昵称">
+      <RegName>USER_All_NICKNAME_CORE2</RegName>
+      <TableName>Ataw_Users</TableName>
+      <TextField>NickName</TextField>
+      <ValueField>UserID</ValueField>
+      <HasCache>true</HasCache>
+    </DbCodeTable>
+  </DbCodeTables>
+</DbCodeTableXml>

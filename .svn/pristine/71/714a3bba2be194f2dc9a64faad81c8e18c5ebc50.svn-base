@@ -1,0 +1,72 @@
+﻿{
+    "GroupData": {
+        "CODE_VALUE": "0",
+        "CODE_TEXT": "根",
+        "Children": [
+            {
+                "CODE_VALUE": "key1",
+                "CODE_TEXT": "基础信息",
+                "Children": [
+                    { "CODE_VALUE": "$userinfo$", "CODE_TEXT": "用户信息"}
+                ]
+            },
+            {
+                "CODE_VALUE": "key2",
+                "CODE_TEXT": "权限管理",
+                "Children": [
+                    { "CODE_VALUE": "$menu$", "CODE_TEXT": "基础菜单" },
+                    { "CODE_VALUE": "$group$", "CODE_TEXT": "组织机构" },
+                    { "CODE_VALUE": "$role$", "CODE_TEXT": "角色管理" },
+                    { "CODE_VALUE": "$UserManagerPage$", "CODE_TEXT": "用户管理" },
+                    { "CODE_VALUE": "$rightPage$", "CODE_TEXT": "权限配置" }
+                ]
+            },
+            {
+                "CODE_VALUE": "key3",
+                "CODE_TEXT": "SDK学习案例",
+                "Children": [
+                    { "CODE_VALUE": "$allcolpage$", "CODE_TEXT": "所有的控件" },
+                    { "CODE_VALUE": "$BASELISTPAGE$", "CODE_TEXT": "列表组件" },
+                    { "CODE_VALUE": "$BASEMDPAGE$", "CODE_TEXT": "主从表测试" },
+                    { "CODE_VALUE": "$test1$", "CODE_TEXT": "定时器组件" },
+                    { "CODE_VALUE": "$ORGLISTPAGE$", "CODE_TEXT": "组织机构2" },
+                    { "CODE_VALUE": "$$module/AllControls/AllControls$", "CODE_TEXT": "配置页面" }
+                ]
+            }
+        ]
+    },
+    "CODE_VALUE": "0",
+    "CODE_TEXT": "根",
+    "Children": [
+        {
+            "CODE_VALUE": "key1",
+            "CODE_TEXT": "基础信息",
+            "Children": [
+                { "CODE_VALUE": "$userinfo$", "CODE_TEXT": "用户信息"}
+            ]
+        },
+        {
+            "CODE_VALUE": "key2",
+            "CODE_TEXT": "权限管理",
+            "Children": [
+                { "CODE_VALUE": "$menu$", "CODE_TEXT": "基础菜单" },
+                { "CODE_VALUE": "$group$", "CODE_TEXT": "组织机构" },
+                { "CODE_VALUE": "$role$", "CODE_TEXT": "角色管理" },
+                { "CODE_VALUE": "$UserManagerPage$", "CODE_TEXT": "用户管理" },
+                { "CODE_VALUE": "$rightPage$", "CODE_TEXT": "权限配置" }
+            ]
+        },
+        {
+            "CODE_VALUE": "key3",
+            "CODE_TEXT": "SDK学习案例",
+            "Children": [
+                { "CODE_VALUE": "$allcolpage$", "CODE_TEXT": "所有的控件" },
+                { "CODE_VALUE": "$BASELISTPAGE$", "CODE_TEXT": "列表组件" },
+                { "CODE_VALUE": "$BASEMDPAGE$", "CODE_TEXT": "主从表测试" },
+                { "CODE_VALUE": "$test1$", "CODE_TEXT": "定时器组件" },
+                { "CODE_VALUE": "$ORGLISTPAGE$", "CODE_TEXT": "组织机构2" },
+                { "CODE_VALUE": "$$module/AllControls/AllControls$", "CODE_TEXT": "配置页面" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+﻿{
+    "CODE_VALUE": "0",
+    "CODE_TEXT": "根",
+    "Children": [
+        {
+            "CODE_VALUE": "key1",
+            "CODE_TEXT": " MvcConfig.xsd",
+            "ExtData": { "Icon": "xsd-icon-jg", "RightValue": "" },
+            "Children": [
+                { "CODE_VALUE": "key", "CODE_TEXT": "include-> DataRoute.xsd", "ExtData": { "Icon": "xsd-icon-inc", "RightValue": "" } },
+                {
+                    "CODE_VALUE": "key2",
+                    "CODE_TEXT": "dataroutes",
+                    "ExtData": { "Icon": "xsd-icon-qjfz", "RightValue": "" },
+                    "Children": [
+                        { "CODE_VALUE": "key22", "CODE_TEXT": "DataRoute routesInfo", "ExtData": { "Icon": "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key23", "CODE_TEXT": "Name xs:string", "ExtData": { "Icon": "xsd-icon-qjtx", "RightValue": "" } }
+                    ]
+
+                },
+                {
+                    "CODE_VALUE": "key3",
+                    "CODE_TEXT": "routes",
+                    "ExtData": { "Icon": "xsd-icon-qjfz", "RightValue": "" },
+                    "Children": [
+                        { "CODE_VALUE": "key32", "CODE_TEXT": "RegName xs:string", "ExtData": { "Icon": "xsd-icon-qjys", "RightValue": "" } }
+                    ]
+                },
+                {
+                    "CODE_VALUE": "key4",
+                    "CODE_TEXT": "AtawMvcConfig",
+                    "ExtData": { "Icon": "xsd-icon-qjys", "RightValue": "" },
+                    "Children": [
+                        { "CODE_VALUE": "key42", "CODE_TEXT": "AppName xs:string", "ExtData": { "Icon": "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key43", "CODE_TEXT": "DataRoutes dataroutes", "ExtData": { "Icon": "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key44", "CODE_TEXT": "Routes routes", "ExtData": { "Icon": "xsd-icon-qjys", "RightValue": "" } }
+                    ]
+                },
+            ]
+        },
+        {
+            "CODE_VALUE": "key5",
+            "CODE_TEXT": " DataRoute.xsd",
+            "ExtData": { Icon: "xsd-icon-jg", "RightValue": "" },
+            "Children": [
+                {
+                    "CODE_VALUE": "key6",
+                    "CODE_TEXT": "routesInfo",
+                    "ExtData": { Icon: "xsd-icon-qjfz", "RightValue": "" },
+                    "Children": [
+                        { "CODE_VALUE": "key62", "CODE_TEXT": "ControlName xs:string", "ExtData": { Icon: "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key63", "CODE_TEXT": "ActionName xs:string", "ExtData": { Icon: "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key64", "CODE_TEXT": "AreaName xs:string", "ExtData": { Icon: "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key65", "CODE_TEXT": "Param xs:string", "ExtData": { Icon: "xsd-icon-qjys", "RightValue": "" } },
+                        { "CODE_VALUE": "key66", "CODE_TEXT": "Name xs:string", "ExtData": { Icon: "xsd-icon-qjtx", "RightValue": "" } }
+                    ]
+
+                }
+            ]
+        }
+    ]
+
+} }

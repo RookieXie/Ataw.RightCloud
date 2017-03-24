@@ -1,0 +1,11 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>产品-角色</Title>
+  <Forms>
+    <Form Order="1" Title="产品-角色信息" Name="RC_Product_Role"  FormType="Grid" HasSearch="true" File="form/RightCloud/RC_Product_Role.xml" ShowKind="Tile" >
+     
+    </Form>
+  </Forms>
+
+ 
+</ModuleConfig>

@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href="/ts/lib/platform/css/b4-reboot.css" rel="stylesheet" id="skinBt" />
+    <link href="/ts/lib/platform/css/atawPlatform.css" rel="stylesheet" id="skinPlatform" />
+    <link href="/ts/lib/font-awesome/font-awesome.css" rel="stylesheet" />
+</head>
+<body class="Hg-login">
+    <div class="container">
+        <div>微信登录</div>
+        <input id="hdOrgCode" type="hidden" value="@ViewBag.orgcode" />
+        <div class="Hu-img">
+            <img id="codeImg" value="" src="" />
+        </div>
+        <div>请使用微信扫描二维码登录“信使大平台”</div>
+    </div>
+    <script src="/ts/lib/jquery/jquery.js"></script>
+    <script src="/ts/lib/jquery/jquery-migrate-1.2.1.js"></script>
+    <script src="/ts/lib/jquery/json.js"></script>
+    <script>
+        $(function () {
+            $.post("/QYWS/QY/GetCodeImg", {}, function (res) {
+                var data = JSON.parse(res);
+                if (data.Obj) {
+                    $("#codeImg").attr("value", data.Obj.FID);
+                    $("#codeImg").attr('src', 'data:image/png;base64,' + data.Obj.imgStream);
+                }
+            })
+            function RCCodeSubmit() {
+                var wx_LoginID = $("#codeImg").attr("value");
+                $.post("/QYWS/QY/CheckWxLogin", { wx_LoginID: wx_LoginID }, function (res) {
+                    var data = JSON.parse(res);
+                    if (data.Obj) {
+                        if (data.Obj.WAL_IsLogin == 1) {
+                            window.location.href = "/ts/html/x?" + window.location.hash;
+                        } else if (data.Obj.WAL_LoginName) {
+                            window.location.href = "/RightCloud/Auth/WxBing?userName=" + data.Obj.WAL_LoginName + "&orgId=" + $("#hdOrgCode").val();
+                        }
+                    }
+                })
+            }
+            setInterval(RCCodeSubmit, 1000);
+        })
+    </script>
+</body>
+</html>

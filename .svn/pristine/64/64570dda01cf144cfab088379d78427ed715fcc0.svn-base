@@ -1,0 +1,43 @@
+﻿input, button, select, textarea {
+     margin-bottom: 0 !important;
+}
+
+.Hm-login-form {
+     height: auto;
+     _height: auto;
+     padding-bottom: 2rem;
+ }
+
+.pd-l0 { padding-left: 0 !important;}
+.pd-r0 { padding-right: 0 !important;}
+.clearfix {
+    zoom:1;
+}
+.clearfix:after {
+    display: block;
+    content:"";
+    clear:both;
+    
+}
+.Hm-tab {
+    padding-bottom: 1rem;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+    margin-bottom: 0;
+}
+.Hm-tab li{
+    float: left;
+    width: 50%;
+    cursor: default;
+}
+    .Hm-tab li:hover {
+        background: #eee;
+    }
+    .Hm-tab li.active { font-weight: bold;}
+    .Hm-tab li:first-child {
+        border-right: 1px solid #a9a9a9;
+    }
+#registerForm,#bingForm {
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}

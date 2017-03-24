@@ -1,0 +1,4 @@
+\\192.168.66.3\Demo\dpt\Ataw.WebSite\areas\RightCloud\Ataw.RightCloud.Service.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Service\obj\Release\Ataw.RightCloud.Service.csprojResolveAssemblyReference.cache
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Service\obj\Release\Ataw.RightCloud.Service.dll
+E:\Web\cmdtest\Ataw.WebSite\Areas\RightCloud\Ataw.RightCloud.Service.dll

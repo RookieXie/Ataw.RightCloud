@@ -1,0 +1,27 @@
+﻿<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>评论资源表信息</Title>
+  <Forms>
+    <Form Order="1" Title="评论资源表信息" Name="Sns_Comment_Resouce"  FormType="Grid" HasSearch="true" File="form/RightCloud/Sns_Comment_Resouce.xml" ShowKind="Tile" >
+      <ButtonRightPlug>RCCommentButtonRight</ButtonRightPlug>
+      <DataPlug>RCAdminCommentDataSource</DataPlug>
+    </Form>
+  </Forms>
+  <Buttons>
+    <Button Name="ShowComment" Text="查看评论" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>CommentList</Function>
+      </Client>
+    </Button>
+    <Button Name="EnableOrDisable" Text="启用/禁用" IsData="true" Unbatchable="true">
+      <Client>
+        <Function>EnableOrDisable</Function>
+      </Client>
+    </Button>
+  </Buttons>
+  <Scripts>
+    <Script>
+      <Path>/Areas/RightCloud/Scripts/RC/Comment/Comment.js</Path>
+    </Script>
+  </Scripts>
+</ModuleConfig>

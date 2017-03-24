@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AACFC569-E804-4700-9253-86A9A6C4DCC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ataw.RightCloud.Api.Data</RootNamespace>
+    <AssemblyName>Ataw.RightCloud.Api.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ataw.Framework.Core">
+      <HintPath>..\..\..\_output\Web\Ataw.WebSite\bin\Ataw.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu\MenuButtonData.cs" />
+    <Compile Include="Menu\MenuData.cs" />
+    <Compile Include="Menu\MenuDetailData.cs" />
+    <Compile Include="Menu\ParentsMenuData.cs" />
+    <Compile Include="Org\GroupButtonData.cs" />
+    <Compile Include="Org\GroupData.cs" />
+    <Compile Include="Org\GroupDetailData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RC\DepUserRoleData.cs" />
+    <Compile Include="RC\RCDepRoleData.cs" />
+    <Compile Include="RC\RCDepartmentData.cs" />
+    <Compile Include="RC\RCGroupMenuData.cs" />
+    <Compile Include="RC\RCGroupTreeData.cs" />
+    <Compile Include="RC\RCMenuData.cs" />
+    <Compile Include="RC\RCMenu_button.cs" />
+    <Compile Include="RC\RCNewRightGroup.cs" />
+    <Compile Include="RC\RCRightMenuData.cs" />
+    <Compile Include="RC\RCRightMenuGroup.cs" />
+    <Compile Include="RC\RCRightMenuRoleData.cs" />
+    <Compile Include="RC\RCRightMenu_Org.cs" />
+    <Compile Include="RC\RCRoleData.cs" />
+    <Compile Include="RC\RCRoleMenuSubmit.cs" />
+    <Compile Include="RC\RCRole_MenuData.cs" />
+    <Compile Include="RC\RCUserRoleData.cs" />
+    <Compile Include="RC\RCUsersData.cs" />
+    <Compile Include="RightConfig\IControllerActor.cs" />
+    <Compile Include="RightConfig\InitMenuData.cs" />
+    <Compile Include="RightConfig\NavTreeData.cs" />
+    <Compile Include="RightConfig\RightConfigData.cs" />
+    <Compile Include="Right\Extend\GroupExtData.cs" />
+    <Compile Include="Right\Extend\MenuExtData.cs" />
+    <Compile Include="Right\Extend\RightExtData.cs" />
+    <Compile Include="Right\Extend\RoleExtData.cs" />
+    <Compile Include="Right\Extend\UserExtData.cs" />
+    <Compile Include="Right\Response\GroupRightResponseData.cs" />
+    <Compile Include="Right\Response\MenuUserRoleResponseData.cs" />
+    <Compile Include="Right\RightData\RightGroup.cs" />
+    <Compile Include="Right\RightData\RightGrouTree.cs" />
+    <Compile Include="Right\RightData\RightMenu.cs" />
+    <Compile Include="Right\RightData\RightMenuGroup.cs" />
+    <Compile Include="Right\RightData\RightMenu_Org.cs" />
+    <Compile Include="Right\RightData\RightRole.cs" />
+    <Compile Include="Right\RightData\RightRole_Menu.cs" />
+    <Compile Include="Right\RightData\RightRole_User.cs" />
+    <Compile Include="Right\RightData\RightUser.cs" />
+    <Compile Include="Right\RightGrantType.cs" />
+    <Compile Include="Right\RightOperation.cs" />
+    <Compile Include="Right\Submit\GroupRightData.cs" />
+    <Compile Include="Right\Submit\GroupRightSubmitData.cs" />
+    <Compile Include="Right\Submit\MenuUserRoleSubmitData.cs" />
+    <Compile Include="Right\Submit\RightGrantData.cs" />
+    <Compile Include="Right\Submit\MenuUserRoleData.cs" />
+    <Compile Include="Right\View\GroupMenuData.cs" />
+    <Compile Include="Right\View\MenuRoleUserData.cs" />
+    <Compile Include="Role\ChangeRoleData.cs" />
+    <Compile Include="Role\RoleData.cs" />
+    <Compile Include="Role\SimpleRoleData.cs" />
+    <Compile Include="Sys\CurrentUserData.cs" />
+    <Compile Include="Sys\Feed\DayNewData.cs" />
+    <Compile Include="Sys\Feed\FeedData.cs" />
+    <Compile Include="Sys\Feed\NewData.cs" />
+    <Compile Include="User\DataRightTree.cs" />
+    <Compile Include="User\UserData.cs" />
+    <Compile Include="User\UserDetailData.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

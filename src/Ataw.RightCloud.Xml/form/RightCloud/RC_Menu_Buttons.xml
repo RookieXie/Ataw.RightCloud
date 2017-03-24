@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<DataFormConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\DataFormConfig.xsd">
+  <Name>RCMenu_button</Name>
+  <TableName>RCMenu_button</TableName>
+  <IsExpand>false</IsExpand>
+  <Title>按钮</Title>
+  <Columns>
+    <Column IsUniqueKey="false" IsKey="true" IsParentColumn="false" Kind="Data" IsReadOnly="false" ShowType="0" Sortable="false" IsDetailLink="false">
+      
+      <Name>FID</Name>
+      <DisplayName>编号</DisplayName>
+      <ControlType>Hidden</ControlType>
+      <Order>10</Order>
+      <Length>50</Length>
+      <DataType>String</DataType>
+      
+    </Column>
+    <Column IsUniqueKey="false" IsKey="false" IsParentColumn="false" Kind="Data" IsReadOnly="false" ShowType="1" Sortable="false" IsDetailLink="false">
+      <Name>CN_Name</Name>
+      <DisplayName>按钮名称</DisplayName>
+      <ControlType>Text</ControlType>
+      <Order>20</Order>
+      <Length>50</Length>
+      <DataType>String</DataType>
+    </Column>
+    <Column IsUniqueKey="false" IsKey="false" IsParentColumn="false" Kind="Data" IsReadOnly="false" ShowType="1" Sortable="false" IsDetailLink="false">
+      
+      <Name>EG_Name</Name>
+      <DisplayName>按钮权值</DisplayName>
+      <ControlType>Text</ControlType>
+      <Order>30</Order>
+      <Length>50</Length>
+      <DataType>String</DataType>
+     
+    </Column>
+  </Columns>
+</DataFormConfig>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0AEC336-3715-4215-86E7-D1F60FD2D468}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ataw.RightCloud.Data</RootNamespace>
+    <AssemblyName>Ataw.RightCloud.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ataw.Framework.Core">
+      <HintPath>..\..\..\_output\library\Ataw.Framework.Web\Ataw.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table\Ataw_Gruop.cs" />
+    <Compile Include="Table\Ataw_Menus.cs" />
+    <Compile Include="Table\Ataw_Menus_Button.cs" />
+    <Compile Include="Table\Ataw_Menus_Group.cs" />
+    <Compile Include="Table\Ataw_PageLock.cs" />
+    <Compile Include="Table\Ataw_Rights.cs" />
+    <Compile Include="Table\Ataw_Roles.cs" />
+    <Compile Include="Table\Ataw_Role_Rights.cs" />
+    <Compile Include="Table\Ataw_Users.cs" />
+    <Compile Include="Table\Ataw_UsersDetail.cs" />
+    <Compile Include="Table\Ataw_Users_State.cs" />
+    <Compile Include="Table\Ataw_User_Roles.cs" />
+    <Compile Include="Table\Comment\CommentData.cs" />
+    <Compile Include="Table\Comment\CommentSubmitData.cs" />
+    <Compile Include="Table\Comment\Sns_Comment.cs" />
+    <Compile Include="Table\Comment\Sns_Comment_Resouce.cs" />
+    <Compile Include="Table\PageMark\MarkData.cs" />
+    <Compile Include="Table\PageMark\PM_PageMark.cs" />
+    <Compile Include="Table\RC\Collection\ComboData.cs" />
+    <Compile Include="Table\RC\Collection\MarkSubmitData.cs" />
+    <Compile Include="Table\RC\Collection\XP_Folder_Tree.cs" />
+    <Compile Include="Table\RC\Collection\XP_WebSite.cs" />
+    <Compile Include="Table\RC\RC_Department.cs" />
+    <Compile Include="Table\RC\RC_Group_Product.cs" />
+    <Compile Include="Table\RC\RC_Group_tree.cs" />
+    <Compile Include="Table\RC\RC_Menu_Group.cs" />
+    <Compile Include="Table\RC\RC_Menu_Role.cs" />
+    <Compile Include="Table\RC\RC_Menu_tree.cs" />
+    <Compile Include="Table\RC\RC_Product.cs" />
+    <Compile Include="Table\RC\RC_Product_Menu.cs" />
+    <Compile Include="Table\RC\RC_Product_Role.cs" />
+    <Compile Include="Table\RC\RC_Role.cs" />
+    <Compile Include="Table\RC\RC_UserRole.cs" />
+    <Compile Include="View\App\AppMenu.cs" />
+    <Compile Include="View\App\MenuInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Ataw.Platform\src\modules\Right\Ataw.Right.Api\Ataw.Right.Api.csproj">
+      <Project>{64ac8525-a2fd-413d-9aa1-ba75e2e6f55c}</Project>
+      <Name>Ataw.Right.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ataw.RightCloud.Api.Data\Ataw.RightCloud.Api.Data.csproj">
+      <Project>{aacfc569-e804-4700-9253-86a9a6c4dcc2}</Project>
+      <Name>Ataw.RightCloud.Api.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

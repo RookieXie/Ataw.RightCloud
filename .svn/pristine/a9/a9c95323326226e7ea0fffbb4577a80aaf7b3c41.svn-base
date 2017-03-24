@@ -1,0 +1,36 @@
+﻿
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>react + typescript11</title>
+    <script src="/ts/lib/foundation/js/vendor/modernizr.js"></script>
+    <link href="/ts/lib/font-awesome/font-awesome.css" rel="stylesheet" />
+    <link href="/ts/lib/akCss/animate.css" rel="stylesheet" />
+    <link href="/ts/lib/akCss/atawPlatform-sass-1.0/scss/b4-reboot.css" rel="stylesheet" />
+    <link href="/ts/lib/akCss/atawPlatform-sass-1.0/atawPlatform.css" rel="stylesheet" />
+    <link href="/AtawStatic/lib/01Base/09Css/ataw_bootstrap.css" rel="stylesheet" />
+    <link href="/AtawStatic/lib/01Base/08Msgbox/msgbox.css" rel="stylesheet" type="text/css" />
+  
+    <script src="/ts/lib/jquery/jquery.js"></script>
+    <script src="/ts/lib/require/require.js" data-main="./../H"></script>
+    <script>
+    requirejs.config({
+        paths: {
+            react: '../ts/lib/react/react',
+            "react-dom": '../ts/lib/react/react-dom',
+            classnames: '../ts/lib/classname/classnames'
+        }
+    });
+    </script>
+</head>
+<body class=" acsScrollBody  " oncontextmenu="return false">
+    <div id="ACT-DIV-SHELL">
+
+    </div>
+</body>
+</html>

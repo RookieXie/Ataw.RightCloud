@@ -1,0 +1,1179 @@
+<?xml version="1.0"?>
+<Ataw xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ControlUnits>
+    <ControlUnit FControlUnitID="MRP007" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw" Desc="sw">
+      <Products>
+        <Product Name="mrp" Key="DB" Default="" Value="尽量填写英文" Desc="" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="21" Key="333" Default="33" Value="333" Desc="" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="1" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="VM数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPSSet数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="GPS_SIM" Key="GPS_SIM" Default="" Value="true" Desc="终端号和Sim卡管理" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw2" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jiyp" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jjj" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="1s2s3a3" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="oatest5" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw4" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw5" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw6" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="12" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw15" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw17" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw18" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw19" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw20" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="MRP011" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw22" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="VM数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPSSet数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw24" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="VM数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPSSet数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyp" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jjyp" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="222222222.MRP" Desc="数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="数据库服务器33" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw25" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="VM数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPSSet数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyptest1" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyptest2" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyptest3" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyptest8" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw26" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw27" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw29" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyptest13" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="jyptest14" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw30" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw31" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="abcdefg" Desc="信使网络">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="local" Desc="MRP数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="local" Desc="Right数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="local" Desc="Dispatch数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="local" Desc="OA数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="local" Desc="Stor数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="local" Desc="VM数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="8" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="6699" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw32" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="ga4" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="ga5" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="ga6" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="ga7" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="ga8" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="ga9" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="gggggg" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="87" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="44" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="6666" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="5555445" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="4596" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="Service1" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="Service2" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw33" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw34" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw28" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="poiuy4" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw56" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw57" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw58" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+    <ControlUnit FControlUnitID="sw59" Desc="信使网络(默认复制的组织)">
+      <Products>
+        <Product Name="MRP" Key="DB" Default="" Value="20121210" Desc="大平台数据库服务器地址" />
+        <Product Name="Right" Key="DB" Default="" Value="20121210" Desc="权限数据库服务器" />
+        <Product Name="Dispatch" Key="DB" Default="" Value="20121210" Desc="路仕达数据库服务器地址" />
+        <Product Name="OA" Key="DB" Default="" Value="20121210" Desc="办公自动化数据库服务器地址" />
+        <Product Name="Stor" Key="DB" Default="" Value="20121210" Desc="进销存数据库服务器地址" />
+        <Product Name="VM" Key="DB" Default="" Value="20121210" Desc="车辆数据库服务器地址" />
+        <Product Name="GPS" Key="DB" Default="" Value="20121210" Desc="GPS数据库服务器地址" />
+        <Product Name="GPSSet" Key="DB" Default="" Value="20121210" Desc="GPS设置数据库服务器地址" />
+        <Product Name="Service" Key="DB" Default="" Value="20121210" Desc="服务数据库服务器地址" />
+        <Product Name="Attendance" Key="DB" Default="" Value="20121210" Desc="考勤数据数据库服务器地址" />
+      </Products>
+      <ControlUnitConfigs>
+        <Config Name="CarGPS" Key="CarGPS" Default="" Value="false" Desc="车辆管理是否关联gps" />
+        <Config Name="CarIsUseGPS" Key="CarIsUseGPS" Default="" Value="false" Desc="车辆管理是否启用gps" />
+        <Config Name="SMSSingleFee" Key="SMSSingleFee" Default="" Value="0.2" Desc="短信单条费用" />
+        <Config Name="MesWorkFlow" Key="MesWorkFlow" Default="true" Value="true" Desc="工作流提醒" />
+        <Config Name="MesSMSMessages" Key="MesSMSMessages" Default="true" Value="true" Desc="短信费用不足提醒" />
+        <Config Name="MesEMail" Key="MesEMail" Default="true" Value="true" Desc="邮件" />
+        <Config Name="MesNotice" Key="MesNotice" Default="true" Value="true" Desc="公告" />
+        <Config Name="MesOrder" Key="MesOrder" Default="true" Value="true" Desc="订单" />
+        <Config Name="MesMessage" Key="MesMessage" Default="true" Value="true" Desc="站内消息" />
+      </ControlUnitConfigs>
+    </ControlUnit>
+  </ControlUnits>
+  <BaseConfigs>
+    <BaseConfig Key="MessageReminder" Value="" Default="true" Desc="是否消息提示，True为是，False为否" />
+    <BaseConfig Key="UploadFilePath" Value="/files/" Default="" Desc="上传文件路径" />
+    <BaseConfig Key="MaxAmount" Value="10000" Default="" Desc="全局报销最大金额" />
+    <BaseConfig Key="SMSProvider" Value="" Default="" Desc="sms服务提供者,默认为空" />
+    <BaseConfig Key="SMSUserName" Value="hzxswl2012" Default="" Desc="短信用户名" />
+    <BaseConfig Key="SMSPassWord" Value="LJH5hatZOj3FIttKuG5ang==" Default="" Desc="短信密码" />
+    <BaseConfig Key="SMSSourceAddr" Value="032000" Default="" Desc="短信短号" />
+    <BaseConfig Key="DefaultServiceEnabled" Value="0" Default="" Desc="启用服务验证 0启用 1不启用" />
+    <BaseConfig Key="DefaultServiceDays" Value="7" Default="" Desc="默认服务天数" />
+    <BaseConfig Key="DefaultServiceFee" Value="100" Default="100" Desc="初始服务费用" />
+    <BaseConfig Key="DefaultServiceSet" Value="0" Default="0" Desc="默认模块启用  0启用 1不启用" />
+    <BaseConfig Key="DefaultServiceMaxUsers" Value="5" Default="" Desc="默认服务最大用户数" />
+    <BaseConfig Key="SystemName" Value="现代办公互动平台yy" Default="现代办公互动平台" Desc="系统名称" />
+    <BaseConfig Key="ClientValidationEnabled" Value="true" Default="true" Desc="客户端验证" />
+    <BaseConfig Key="UploadPath" Value="/images/ico/" Default="/images/ico/" Desc="上传文件路径" />
+    <BaseConfig Key="UserIDRelevance" Value="true" Default="true" Desc="关联添加(增加员工时添加登录帐号)" />
+    <BaseConfig Key="LogOperation" Value="true" Default="true" Desc="记录操作日志" />
+    <BaseConfig Key="QiXinTongUserName" Value="swhycs2" Default="swhycs2" Desc="企信通用户名" />
+    <BaseConfig Key="QiXinTongPassWord" Value="rNnHJ15ciBI=" Default="" Desc="企信通密码" />
+    <BaseConfig Key="Doc2SwfUrl" Value="C:\\SWFTools\\pdf2swf.exe" Default="C:\\Program Files (x86)\\SWFTools\\pdf2swf.exe" Desc="pdf转换为swf文件工具的url" />
+    <BaseConfig Key="SwfLanguagedir" Value="C:\\xpdf\\xpdf-chinese-simplified" Default="C:\\Program Files (x86)\\xpdf\\xpdf-chinese-simplified" Desc="pdf转换为swf文件中文字体集" />
+    <BaseConfig Key="GPSAccountApplicationFee" Value="500" Default="500" Desc="GPS设备服务账号申请单的默认金额" />
+  </BaseConfigs>
+</Ataw>

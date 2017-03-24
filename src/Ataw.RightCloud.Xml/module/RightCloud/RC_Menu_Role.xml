@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>菜单-角色</Title>
+  <Forms>
+    <Form Order="0" Title="菜单-角色" Name="RC_Menu_Role" TableName="RC_Menu_Role" FormType="Grid"  HasSearch="true" File="form\RightCloud\RC_Menu_Role.xml" ShowKind="Tile" >
+    </Form>
+  </Forms>
+</ModuleConfig>

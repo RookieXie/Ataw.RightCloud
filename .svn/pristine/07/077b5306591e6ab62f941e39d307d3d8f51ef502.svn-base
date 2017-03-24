@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Web", "Ataw.RightCloud.Web\Ataw.RightCloud.Web.csproj", "{E4436DA2-B5CE-462E-BFE9-94298E65014D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Core", "Ataw.RightCloud.Core\Ataw.RightCloud.Core.csproj", "{74E59A39-4928-45DA-8D7F-4DDC24197D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.BF", "Ataw.RightCloud.BF\Ataw.RightCloud.BF.csproj", "{AAC2DE84-BEF1-47D0-A7D5-B34849621C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.DA", "Ataw.RightCloud.DA\Ataw.RightCloud.DA.csproj", "{BC469B17-298D-43E2-9199-4C9879BBB668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Data", "Ataw.RightCloud.Data\Ataw.RightCloud.Data.csproj", "{C0AEC336-3715-4215-86E7-D1F60FD2D468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.DB", "Ataw.RightCloud.DB\Ataw.RightCloud.DB.csproj", "{822DA043-B624-42D6-8AA2-05549F6D0962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Service", "Ataw.RightCloud.Service\Ataw.RightCloud.Service.csproj", "{1D49FE94-4DF4-4070-9197-5DEB3B7F063D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Plug", "Ataw.RightCloud.Plug\Ataw.RightCloud.Plug.csproj", "{0840C8AD-150A-43DA-8A83-35E003692B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Api", "Ataw.RightCloud.Api\Ataw.RightCloud.Api.csproj", "{31B68AB7-8F1B-4B73-89FE-3E53B51B2EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Api.Data", "Ataw.RightCloud.Api.Data\Ataw.RightCloud.Api.Data.csproj", "{AACFC569-E804-4700-9253-86A9A6C4DCC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.RightCloud.Xml", "Ataw.RightCloud.Xml\Ataw.RightCloud.Xml.csproj", "{52806FEF-767C-4DCE-92CE-6AF8DA00AEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.xml", "Ataw.xml\Ataw.xml.csproj", "{65C77D98-68A0-4CA3-B6CA-B3FEC9E70E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RightCloud.Css", "RightCloud.Css\RightCloud.Css.csproj", "{C27EA49D-E8E6-4ABF-A513-1FCD797D9460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ataw.Right.Api", "..\..\..\Ataw.Platform\src\modules\Right\Ataw.Right.Api\Ataw.Right.Api.csproj", "{64AC8525-A2FD-413D-9AA1-BA75E2E6F55C}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4436DA2-B5CE-462E-BFE9-94298E65014D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4436DA2-B5CE-462E-BFE9-94298E65014D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4436DA2-B5CE-462E-BFE9-94298E65014D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4436DA2-B5CE-462E-BFE9-94298E65014D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E59A39-4928-45DA-8D7F-4DDC24197D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E59A39-4928-45DA-8D7F-4DDC24197D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E59A39-4928-45DA-8D7F-4DDC24197D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E59A39-4928-45DA-8D7F-4DDC24197D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC2DE84-BEF1-47D0-A7D5-B34849621C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC2DE84-BEF1-47D0-A7D5-B34849621C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC2DE84-BEF1-47D0-A7D5-B34849621C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC2DE84-BEF1-47D0-A7D5-B34849621C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC469B17-298D-43E2-9199-4C9879BBB668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC469B17-298D-43E2-9199-4C9879BBB668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC469B17-298D-43E2-9199-4C9879BBB668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC469B17-298D-43E2-9199-4C9879BBB668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AEC336-3715-4215-86E7-D1F60FD2D468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AEC336-3715-4215-86E7-D1F60FD2D468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AEC336-3715-4215-86E7-D1F60FD2D468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AEC336-3715-4215-86E7-D1F60FD2D468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822DA043-B624-42D6-8AA2-05549F6D0962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822DA043-B624-42D6-8AA2-05549F6D0962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822DA043-B624-42D6-8AA2-05549F6D0962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822DA043-B624-42D6-8AA2-05549F6D0962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D49FE94-4DF4-4070-9197-5DEB3B7F063D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D49FE94-4DF4-4070-9197-5DEB3B7F063D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D49FE94-4DF4-4070-9197-5DEB3B7F063D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D49FE94-4DF4-4070-9197-5DEB3B7F063D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0840C8AD-150A-43DA-8A83-35E003692B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0840C8AD-150A-43DA-8A83-35E003692B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0840C8AD-150A-43DA-8A83-35E003692B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0840C8AD-150A-43DA-8A83-35E003692B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B68AB7-8F1B-4B73-89FE-3E53B51B2EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B68AB7-8F1B-4B73-89FE-3E53B51B2EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B68AB7-8F1B-4B73-89FE-3E53B51B2EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B68AB7-8F1B-4B73-89FE-3E53B51B2EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACFC569-E804-4700-9253-86A9A6C4DCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACFC569-E804-4700-9253-86A9A6C4DCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACFC569-E804-4700-9253-86A9A6C4DCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACFC569-E804-4700-9253-86A9A6C4DCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52806FEF-767C-4DCE-92CE-6AF8DA00AEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52806FEF-767C-4DCE-92CE-6AF8DA00AEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52806FEF-767C-4DCE-92CE-6AF8DA00AEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52806FEF-767C-4DCE-92CE-6AF8DA00AEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C77D98-68A0-4CA3-B6CA-B3FEC9E70E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C77D98-68A0-4CA3-B6CA-B3FEC9E70E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C77D98-68A0-4CA3-B6CA-B3FEC9E70E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C77D98-68A0-4CA3-B6CA-B3FEC9E70E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27EA49D-E8E6-4ABF-A513-1FCD797D9460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27EA49D-E8E6-4ABF-A513-1FCD797D9460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27EA49D-E8E6-4ABF-A513-1FCD797D9460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27EA49D-E8E6-4ABF-A513-1FCD797D9460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AC8525-A2FD-413D-9AA1-BA75E2E6F55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AC8525-A2FD-413D-9AA1-BA75E2E6F55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AC8525-A2FD-413D-9AA1-BA75E2E6F55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AC8525-A2FD-413D-9AA1-BA75E2E6F55C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

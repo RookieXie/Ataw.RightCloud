@@ -1,0 +1,53 @@
+﻿{
+    "ShortCutList": [
+        {
+            "LinkSrc": "$$module/Estate/Base/estate_base_CommunityDynamics",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_state.png",
+            "Name": "社区动态",
+            "Num": null
+        },
+        { 
+            "LinkSrc": "$$module/Estate/Repair/ere_rep_Repair_Flow_Take",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_manage.png",
+            "Name": "接单管理",
+            "Num": 128
+        },
+        {
+            "LinkSrc": "$$module/Estate/Community/estate_community_Complaint",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_complain.png",
+            "Name": "投诉信息",
+            "Num": 3
+        },
+        {
+            "LinkSrc": "$$module/Estate/Community/estate_community_Advice",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_suggest.png",
+            "Name": "建议信息",
+            "Num": 4
+        },
+        {
+            "LinkSrc": "$$module/Estate/Community/estate_community_Questionnaire",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_survey.png",
+            "Name": "问卷调查",
+            "Num": null
+        },
+        {
+            "LinkSrc": "$$module/Estate/Repair/ere_rep_Repair_Flow_Process",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_order.png",
+            "Name": "报修工单",
+            "Num": null
+        },
+        {
+            "LinkSrc": "$$module/Estate/Repair/ere_rep_Repair_Comments_History",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_evaluate.png",
+            "Name": "报修评价",
+            "Num": null
+        },
+        { 
+            "LinkSrc": "$$module/Estate/Reservation/estate_reservation_Order",
+            "ImgSrc": "/areas/Estatemanage/content/images/icon_reservation.png",
+            "Name": "预约订单",
+            "Num": null
+        }
+
+    ]
+}

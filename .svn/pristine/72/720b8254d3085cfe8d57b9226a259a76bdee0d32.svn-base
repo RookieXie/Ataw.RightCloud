@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModuleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="D:\Ataw.Schemas\ModuleConfig.xsd">
+  <Mode>Single</Mode>
+  <Title>菜单</Title>
+  <Forms>
+    <Form Order="0" Title="菜单" Name="RC_Menu_tree" TableName="RC_Menu_tree" FormType="Grid"  HasSearch="true" File="form\RightCloud\RC_Menu_tree.xml" ShowKind="Tile" >
+      <ButtonRightPlug>RC_MenuButtonRight</ButtonRightPlug>
+      <DataPlug>RCMenuTreeDataSource</DataPlug>
+      <Pager>
+        <PageSize>10</PageSize>
+      </Pager>
+    </Form>
+  </Forms>
+  <Interceptor>JsonPageViewTool</Interceptor>
+</ModuleConfig>

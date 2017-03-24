@@ -1,0 +1,17 @@
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Ataw.RightCloud.Api.Data.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Ataw.RightCloud.Api.Data.pdb
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Ataw.Framework.Core.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\EntityFramework.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Microsoft.Practices.Unity.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Shuttle.ESB.Core.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Newtonsoft.Json.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\SocketIOClient.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\WebSocket4Net.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Ataw.Framework.Core.pdb
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\Newtonsoft.Json.xml
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\SocketIOClient.pdb
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\WebSocket4Net.pdb
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\obj\Debug\Ataw.RightCloud.Api.Data.dll
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\obj\Debug\Ataw.RightCloud.Api.Data.pdb
+D:\AtawSoruces\Products\Ataw.RightCloud\src\Ataw.RightCloud.Api.Data\bin\Debug\ICSharpCode.SharpZipLib.dll

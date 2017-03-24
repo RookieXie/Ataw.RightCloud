@@ -1,0 +1,227 @@
+﻿{
+
+    "MenuUserTable": {
+
+        "RoleData": [
+            { "FID": "001", "RoleName": "角色11", "RoleSign": "role1" },
+            { "FID": "002", "RoleName": "角色2", "RoleSign": "role2" },
+            { "FID": "003", "RoleName": "角色3", "RoleSign": "role3" },
+            { "FID": "004", "RoleName": "角色4", "RoleSign": "role4" },
+            { "FID": "005", "RoleName": "角色5", "RoleSign": "role5" },
+            { "FID": "006", "RoleName": "角色6", "RoleSign": "role6" },
+            { "FID": "007", "RoleName": "角色7", "RoleSign": "role7" },
+            { "FID": "008", "RoleName": "角色8", "RoleSign": "role9" },
+            { "FID": "001", "RoleName": "角色1", "RoleSign": "role1" },
+            { "FID": "002", "RoleName": "角色2", "RoleSign": "role2" },
+            { "FID": "003", "RoleName": "角色3", "RoleSign": "role3" },
+            { "FID": "004", "RoleName": "角色4", "RoleSign": "role4" },
+            { "FID": "005", "RoleName": "角色5", "RoleSign": "role5" },
+            { "FID": "006", "RoleName": "角色6", "RoleSign": "role6" },
+            { "FID": "007", "RoleName": "角色7", "RoleSign": "role7" }
+        ],
+
+        "MenuData": [
+            { "CODE_VALUE": "001", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单1", "IsHidden": false },
+
+            {
+                "CODE_VALUE": "002",
+                "isParent": true,
+                "isLeaft": false,
+                "CODE_TEXT": "菜单2",
+                "IsHidden": false,
+                "Children": [
+                    { "CODE_VALUE": "0021", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单21", "IsHidden": false },
+                    { "CODE_VALUE": "0022", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单22", "IsHidden": false },
+                    { "CODE_VALUE": "0023", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单23", "IsHidden": false },
+
+                    {
+                        "CODE_VALUE": "0024",
+                        "isParent": true,
+                        "isLeaft": false,
+                        "CODE_TEXT": "菜单24",
+                        "IsHidden": false,
+                        "Children": [
+                            { "CODE_VALUE": "00241", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单241", "IsHidden": false },
+                            { "CODE_VALUE": "00242", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单242", "IsHidden": false },
+                            { "CODE_VALUE": "00243", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单243", "IsHidden": false }
+                        ]
+                    }
+                ]
+            },
+            {
+                "CODE_VALUE": "003",
+                "isParent": true,
+                "isLeaft": false,
+                "CODE_TEXT": "菜单3",
+                "IsHidden": false,
+                "ButtonList": [
+                    { "FID": "0031", "ButtonName": "删除0031" },
+                    { "FID": "0032", "ButtonName": "添加0031" },
+                    { "FID": "0033", "ButtonName": "编辑0031" }
+                ]
+            },
+            { "CODE_VALUE": "004", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单4", "IsHidden": false },
+            { "CODE_VALUE": "005", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单5", "IsHidden": false },
+            { "CODE_VALUE": "006", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单6", "IsHidden": false },
+            { "CODE_VALUE": "007", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单7", "IsHidden": false },
+            { "CODE_VALUE": "008", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单8", "IsHidden": false },
+            { "CODE_VALUE": "009", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单9", "IsHidden": false },
+            { "CODE_VALUE": "0010", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜10", "IsHidden": false },
+            { "CODE_VALUE": "0011", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单11", "IsHidden": false },
+            { "CODE_VALUE": "0012", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单12", "IsHidden": false },
+            { "CODE_VALUE": "0013", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单13", "IsHidden": false },
+            { "CODE_VALUE": "0014", "isParent": true, "isLeaft": false, "CODE_TEXT": "菜单14", "IsHidden": false }
+        ],
+
+        "UserData": [
+
+            { "FID": "001", "UserName": "用户1", "UserSign": "user1", "User": "001" },
+            { "FID": "002", "UserName": "用户2", "UserSign": "user2", "User": "001,002" },
+            { "FID": "003", "UserName": "用户3", "UserSign": "user3", "User": "" },
+            { "FID": "004", "UserName": "用户4", "UserSign": "user4", "User": "" },
+            { "FID": "005", "UserName": "用户5", "UserSign": "user5", "User": "" },
+
+            { "FID": "001", "UserName": "用户1", "UserSign": "user1", "User": "001" },
+            { "FID": "002", "UserName": "用户2", "UserSign": "user2", "User": "001,002" },
+            { "FID": "003", "UserName": "用户3", "UserSign": "user3", "User": "" },
+            { "FID": "004", "UserName": "用户4", "UserSign": "user4", "User": "" },
+            { "FID": "005", "UserName": "用户5", "UserSign": "user5", "User": "" }
+        ],
+
+        "UserRoleData": [
+            { "FID": "001", "RoleName": "角色1", "RoleSign": "role1" },
+            { "FID": "002", "RoleName": "角色2", "RoleSign": "role2" },
+            { "FID": "003", "RoleName": "角色3", "RoleSign": "role3" },
+            { "FID": "004", "RoleName": "角色4", "RoleSign": "role4" },
+            { "FID": "005", "RoleName": "角色5", "RoleSign": "role5" },
+            { "FID": "006", "RoleName": "角色6", "RoleSign": "role6" },
+            { "FID": "007", "RoleName": "角色7", "RoleSign": "role7" },
+            { "FID": "008", "RoleName": "角色8", "RoleSign": "role9" },
+            { "FID": "001", "RoleName": "角色1", "RoleSign": "role1" },
+            { "FID": "002", "RoleName": "角色2", "RoleSign": "role2" },
+            { "FID": "003", "RoleName": "角色3", "RoleSign": "role3" },
+            { "FID": "004", "RoleName": "角色4", "RoleSign": "role4" },
+            { "FID": "005", "RoleName": "角色5", "RoleSign": "role5" },
+            { "FID": "006", "RoleName": "角色6", "RoleSign": "role6" },
+            { "FID": "007", "RoleName": "角色7", "RoleSign": "role7" }
+
+        ]
+    },
+
+    "MenuOrgTable": {
+
+        "OrgData": [
+            { "FID": "001", "OrgName": "组织1", "OrgSign": "" }
+        ],
+
+        "MenuData": [
+            { "FID": "001", "isParent": true, "isLeaft": false, "MenuName": "菜单1", "IsHidden": false, "Org": "002" },
+
+            {
+                "FID": "002",
+                "isParent": true,
+                "isLeaft": false,
+                "MenuName": "菜单2",
+                "IsHidden": false,
+                "Children": [
+                    { "FID": "0021", "isParent": true, "isLeaft": false, "MenuName": "菜单21", "IsHidden": false, "Org": "001,002" },
+                    { "FID": "0022", "isParent": true, "isLeaft": false, "MenuName": "菜单22", "IsHidden": false, "Org": "005,006" },
+                    { "FID": "0023", "isParent": true, "isLeaft": false, "MenuName": "菜单23", "IsHidden": false, "Org": "001,008" },
+
+                    {
+                        "FID": "0024",
+                        "isParent": true,
+                        "isLeaft": false,
+                        "MenuName": "菜单24",
+                        "IsHidden": false,
+                        "Children": [
+                            {
+                                "FID": "00241",
+                                "isParent": false,
+                                "isLeaft": true,
+                                "MenuName": "菜单241",
+                                "IsHidden": false,
+                                "ButtonList": [
+                                    {
+                                        "FID": "1000",
+                                        "ButtonName": "新增",
+                                        "Org": "001,002"
+                                    },
+                                    {
+                                        "FID": "1001",
+                                        "ButtonName": "详情",
+                                        "Org": "001,002"
+                                    },
+                                    {
+                                        "FID": "1003",
+                                        "ButtonName": "编辑",
+                                        "Org": ""
+
+                                    }
+                                ],
+                                "Org": "001,002"
+
+                            },
+
+                            { "FID": "00242", "isParent": true, "isLeaft": false, "MenuName": "菜单242", "IsHidden": false, "Org": "001,002" },
+                            { "FID": "00243", "isParent": true, "isLeaft": false, "MenuName": "菜单243", "IsHidden": false, "Org": "001,002" }
+                        ],
+                        "Org": "001,002"
+                    }
+                ],
+                "Org": "001,002"
+            },
+
+
+            { "FID": "003", "isParent": true, "isLeaft": false, "MenuName": "菜单3", "IsHidden": false, "Org": "001,002" },
+            { "FID": "004", "isParent": true, "isLeaft": false, "MenuName": "菜单4", "IsHidden": false, "Org": "001,002" },
+            { "FID": "005", "isParent": true, "isLeaft": false, "MenuName": "菜单5", "IsHidden": false, "Org": "001,002" },
+            { "FID": "006", "isParent": true, "isLeaft": false, "MenuName": "菜单6", "IsHidden": false, "Org": "001,002" },
+            { "FID": "007", "isParent": true, "isLeaft": false, "MenuName": "菜单7", "IsHidden": false, "Org": "001,002" },
+            { "FID": "008", "isParent": true, "isLeaft": false, "MenuName": "菜单8", "IsHidden": false, "Org": "001,002" },
+            { "FID": "009", "isParent": true, "isLeaft": false, "MenuName": "菜单9", "IsHidden": false, "Org": "001,002" },
+            { "FID": "0010", "isParent": true, "isLeaft": false, "MenuName": "菜10", "IsHidden": false, "Org": "001,002" },
+            { "FID": "0011", "isParent": true, "isLeaft": false, "MenuName": "菜单11", "IsHidden": false, "Org": "001,002" },
+            { "FID": "0012", "isParent": true, "isLeaft": false, "MenuName": "菜单12", "IsHidden": false, "Org": "001,002" },
+            { "FID": "0013", "isParent": true, "isLeaft": false, "MenuName": "菜单13", "IsHidden": false, "Org": "001,002" },
+            { "FID": "0014", "isParent": true, "isLeaft": false, "MenuName": "菜单14", "IsHidden": false, "Org": "001,002" }
+        ]
+    },
+
+    "GroupData": {
+        "CODE_VALUE": "0",
+        "CODE_TEXT": "根",
+        "Children": [
+            {
+                "CODE_VALUE": "key1",
+                "CODE_TEXT": "基础信息",
+                "Children": [
+                    { "CODE_VALUE": "$userinfo$", "CODE_TEXT": "用户信息" }
+                ]
+            },
+            {
+                "CODE_VALUE": "key2",
+                "CODE_TEXT": "权限管理",
+                "Children": [
+                    { "CODE_VALUE": "$menu$", "CODE_TEXT": "基础菜单" },
+                    { "CODE_VALUE": "$group$", "CODE_TEXT": "组织机构" },
+                    { "CODE_VALUE": "$role$", "CODE_TEXT": "角色管理" },
+                    { "CODE_VALUE": "$UserManagerPage$", "CODE_TEXT": "用户管理" },
+                    { "CODE_VALUE": "$rightPage$", "CODE_TEXT": "权限配置" }
+                ]
+            },
+            {
+                "CODE_VALUE": "key3",
+                "CODE_TEXT": "SDK学习案例",
+                "Children": [
+                    { "CODE_VALUE": "$allcolpage$", "CODE_TEXT": "所有的控件" },
+                    { "CODE_VALUE": "$BASELISTPAGE$", "CODE_TEXT": "列表组件" },
+                    { "CODE_VALUE": "$BASEMDPAGE$", "CODE_TEXT": "主从表测试" },
+                    { "CODE_VALUE": "$test1$", "CODE_TEXT": "定时器组件" },
+                    { "CODE_VALUE": "$ORGLISTPAGE$", "CODE_TEXT": "组织机构2" },
+                    { "CODE_VALUE": "$$module/AllControls/AllControls$", "CODE_TEXT": "配置页面" }
+                ]
+            }
+        ]
+    }
+}
